@@ -41,9 +41,20 @@ a{
     background-color: #1D4ED8;
     color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px 20px;   
+    border-radius: 5px; 
+    font-weight: bold; 
+
 }
 .btn:hover {
     background-color: #27053f;
+}
+
+.btn.A {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.btn.B {
+    padding: 13px 25px;
+    font-size: 19px;
 }
