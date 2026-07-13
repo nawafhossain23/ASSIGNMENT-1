@@ -343,3 +343,51 @@ hr {
 }
 
 
+.hackathon-details{
+    padding:100px 10%;
+    background:#0d1117;
+    text-align:center;
+}
+
+.hackathon-details h2{
+    font-size:2.7rem;
+    color:#fff;
+    margin-bottom:60px;
+}
+
+.details-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:30px;
+}
+
+.detail-card{
+    background:#161b22;
+    padding:35px 25px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,0.08);
+    transition:0.3s ease;
+}
+
+.detail-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.35);
+    border-color:#4f8cff;
+}
+
+.icon{
+    font-size:2.5rem;
+    margin-bottom:18px;
+}
+
+.detail-card h3{
+    color:#fff;
+    margin-bottom:10px;
+    font-size:1.3rem;
+}
+
+.detail-card p{
+    color:#b8c1cc;
+    font-size:1rem;
+    line-height:1.6;
+}
